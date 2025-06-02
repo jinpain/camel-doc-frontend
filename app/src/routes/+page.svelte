@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Content from '../components/main/Content.svelte';
+	import NotifyList from '../components/main/NotifyList.svelte';
+</script>
+
+<div class="d-flex">
+	<div class="flex-grow-1">
+        <Content />
+	</div>
+	<div>
+		<NotifyList />
+	</div>
+</div>
+
+<div></div>
